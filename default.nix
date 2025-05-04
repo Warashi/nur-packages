@@ -16,6 +16,5 @@
   modules = import ./modules; # NixOS modules
   overlays = import ./overlays; # nixpkgs overlays
 
-  emacs-with-ox-hugo = pkgs.callPackage ./pkgs/emacs-with-ox-hugo { };
-  emacs-with-ox-zenn = pkgs.callPackage ./pkgs/emacs-with-ox-zenn { };
+  emacs-for-ci = pkgs.callPackage ./pkgs/emacs-for-ci { };
 }
