@@ -17,8 +17,9 @@ jobs:
       matrix:
         # Set this to run on the latest ubuntu and macos.
         runs-on:
-          - ubuntu-latest
-          - macos-latest
+          - ubuntu-24.04
+          - ubuntu-24.04-arm
+          - macos-15
         # Set this to notify the global nur package registry that changes are
         # available.
         #
