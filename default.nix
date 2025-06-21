@@ -17,4 +17,5 @@
   overlays = import ./overlays; # nixpkgs overlays
 
   emacs-for-ci = pkgs.callPackage ./pkgs/emacs-for-ci { };
+  phantom = pkgs.callPackage ./pkgs/phantom { };
 }
