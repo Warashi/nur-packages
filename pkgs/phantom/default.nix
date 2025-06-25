@@ -8,14 +8,14 @@
 }:
 buildNpmPackage rec {
   pname = "phtantom";
-  version = "1.3.0";
+  version = "2.0.0";
 
   src = fetchzip {
     url = "https://registry.npmjs.org/@aku11i/phantom/-/phantom-${version}.tgz";
-    hash = "sha256-oFUSbEWp3OkoGYbCdPg+z2mqsVtsBE8uKrcv9IovK2A=";
+    hash = "sha256-7ZmIshnWXsKJnIqALC3GzJqNy+tetEvqyJDBLoHcHXM=";
   };
 
-  npmDepsHash = "sha256-p2wRi3Qcj2ZfUWfhMqW7bNB0F0XXvy1G8+RZLvu6Rhc=";
+  npmDepsHash = "sha256-kH/LNWBUX7nUebWH5zALAUjKxEcrz7DcI2efl2U/54M=";
 
   dontNpmBuild = true;
 
