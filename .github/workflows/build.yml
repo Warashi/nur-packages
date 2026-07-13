@@ -48,7 +48,7 @@ jobs:
     - name: Checkout repository
       uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
     - name: Install nix
-      uses: cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b # 31.10.4
+      uses: cachix/install-nix-action@a49548c11d9846ad46ecc0115273879b045f001c # 31.10.7
       with:
         nix_path: "${{ matrix.nixPath }}"
         extra_nix_config: |
